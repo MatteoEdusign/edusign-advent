@@ -283,6 +283,15 @@
             border-bottom-style: solid;
         }
 
+        .modal-body img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            margin: 1rem 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
         /* Responsive */
         @media (max-width: 600px) {
             .calendar-grid {
@@ -326,7 +335,14 @@
 
     <script>
         const contents = {
-            1: { title: "🚀 Jour 1 : EdTech Fact", content: "Le marché de l'EdTech pèse plus de 300 milliards $. On est au bon endroit chez Edusign ! 😉" },
+            1: { 
+                title: "🎄 Jour 1 : Bienvenue !", 
+                content: `<strong>Bienvenue dans le Calendrier de l'Avent Edusign !</strong><br><br>
+                         Chaque jour jusqu'à Noël, découvrez une surprise : anecdotes, outils, fun facts...<br><br>
+                         <img src="assets/summerteambuilding.jpg" alt="Team Building Edusign" /><br>
+                         <em>Souvenirs du team building d'été 2024 ☀️</em><br><br>
+                         Profitez de ce moment festif avec toute l'équipe ! 🎁`
+            },
             2: { title: "🧠 Pause Cerveau", content: "Test de vitesse de frappe. Battez l'équipe ! <br><br> 👉 <a href='https://monkeytype.com/' target='_blank' style='color:#fbbf24'>MonkeyType</a>" },
             3: { title: "🎨 L'outil magique", content: "Détourage d'image en 2 secondes. <br><br> 👉 <a href='https://www.remove.bg/' target='_blank' style='color:#fbbf24'>Remove.bg</a>" },
             4: { title: "🕹️ Stress Relief", content: "Éclatez du papier bulle virtuel (Attention addictif). <br><br> 👉 <a href='https://popcat.click/' target='_blank' style='color:#fbbf24'>PopCat</a>" },
